@@ -8,10 +8,30 @@
   <link rel="stylesheet" href="./main.css">
   <script src="./tic-tac-toe.js"></script>
 </head>
-
 <body>
-  <!-- HTML structure for the UI: -->
-  <!-- Your code here -->
+  <div class="container">
+      <h1 id="winner-heading">Winner: X</h1>
+      <div class="game-board">
+          <div class="row">
+              <div class="cell" id="square-0"></div>
+              <div class="cell" id="square-1"></div>
+              <div class="cell" id="square-2"></div>
+          </div>
+          <div class="row">
+              <div class="cell" id="square-3"></div>
+              <div class="cell" id="square-4"></div>
+              <div class="cell" id="square-5"></div>
+          </div>
+          <div class="row">
+              <div class="cell" id="square-6"></div>
+              <div class="cell" id="square-7"></div>
+              <div class="cell" id="square-8"></div>
+          </div>
+      </div>
+      <div class="button-container">
+          <button class="button" id="new-game-button">New Game</button>
+          <button class="button" id="give-up-button">Give Up</button>
+      </div>
+  </div>
 </body>
-
 </html>

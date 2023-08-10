@@ -1,1 +1,61 @@
-/* Your code here */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background-color: white;
+    font-family: comic, cursive;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#winner-heading {
+    margin-bottom: 50px;
+    font-size: 65px;
+
+}
+
+.game-board {
+    display: grid;
+    margin-bottom: 20px;
+    background-color: black;
+    grid-gap: 5px
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px
+}
+
+.cell {
+    width: 20vh;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.button {
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top:25px;
+    font-family: comic, cursive;
+}
